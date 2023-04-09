@@ -5,6 +5,8 @@ TRAIN:
   EVAL_PERIOD: 5
   CHECKPOINT_PERIOD: 5
   AUTO_RESUME: True
+  CHECKPOINT_FILE_PATH: '../models/TimeSformer_divST_96x4_224_K600.pyth'
+  FINETUNE: True
 DATA:
   PATH_TO_DATA_DIR: /path/to/kinetics/
   NUM_FRAMES: 96
